@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class MovieDbHelper extends SQLiteOpenHelper {
 
     // The database name
-    private static final String DATABASE_NAME = "movies.db";
+    private static final String DATABASE_NAME = "popularmovie.db";
 
     // If you change the database schema, you must increment the database version
     private static final int DATABASE_VERSION = 6;
