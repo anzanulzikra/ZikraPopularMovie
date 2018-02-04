@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:layout_margin="0dp"
+    android:background="@color/colorPrimary"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/imgViewDirCat"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_alignBottom="@+id/imgViewDirCat"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/gradient" />
+
+    <TextView
+        android:id="@+id/txtCaret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewDirCat"
+        android:layout_alignParentRight="true"
+        android:text="0.0 / yyyy"
+        android:paddingBottom="@dimen/margin_default"
+        android:paddingRight="@dimen/margin_default"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="visible"/>
+
+
+    <View
+        android:id="@+id/title_background"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtTitle"
+        android:layout_gravity="bottom"
+        android:alpha="0.6"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/imgViewDirCat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Title Of Movie"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+</RelativeLayout>

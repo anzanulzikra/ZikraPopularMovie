@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Zikra Movie</string>
+
+    <string name="error_message">Terjadi Kesalahan</string>
+    <string name="action_sort_by_popular">Popular Movie</string>
+    <string name="action_sort_by_rating">Top Rating Movie</string>
+    <string name="action_sort_by_favorite">My Favorite Movie</string>
+    <string name="title_activity_movie_detail">MovieDetail</string>
+    <string name="action_share">Share</string>
+    <string name="send_to">Share</string>
+    <string name="title_activity_movie_details">Movie</string>
+    <string name="rating_denominator">/10</string>
+    <string name="content_desc_movie_poster">Movie poster</string>
+    <string name="content_desc_backdrop_image">Movie backdrop image</string>
+    <string name="saveToFavorite">saved to your favorites list</string>
+    <string name="alreadyOnFavorite">already in your favorites</string>
+    <string name="detail_trailer_label">Trailer</string>
+    <string name="detail_review_label">Review</string>
+    <string name="detail_sonopsis_label">Sinopsis</string>
+    <string name="review_empty_label">Belum ada komentar untuk film ini</string>
+    <string name="trailer_empty_label">Trailer tidak tersedia</string>
+    <string name="detail_title">Detail Movie</string>
+    <string name="titleRating">@string/action_sort_by_rating</string>
+    <string name="titleFavorite">@string/action_sort_by_favorite</string>
+</resources>
